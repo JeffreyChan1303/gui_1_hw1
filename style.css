@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  background-color: #d9dbf1;
+}
+
+body {
+  padding: 0 4rem;
+}
+
+img {
+  width: 20rem;
+  object-fit: contain;
+  background-color: red;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+section {
+  margin: 4rem 0;
+}
+
+.name {
+  color: #f97068;
+}
+.table-section-title {
+  color: #4f517d;
+}
