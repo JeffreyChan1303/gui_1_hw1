@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+/* adds the box-sizing, and font family I like to use when working with websites */
 *,
 *::before,
 *::after {
@@ -7,10 +8,12 @@
   font-family: 'Inter', sans-serif;
 }
 
+/* changes the page background color */
 html {
   background-color: #d9dbf1;
 }
 
+/* adds a space between left and right of the windor for the content in the body */
 body {
   padding: 0 4rem;
 }
@@ -21,19 +24,23 @@ img {
   background-color: red;
 }
 
+/* makes a border for my table elements */
 table,
 td,
 th {
   border: 1px solid black;
 }
 
+/* adds space between sections */
 section {
   margin: 4rem 0;
 }
 
+/* changes the color of my name in the title */
 .name {
   color: #f97068;
 }
+/* changes color of the table section's title */
 .table-section-title {
   color: #4f517d;
 }
